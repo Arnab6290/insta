@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram logo</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+       #container{
+        width: 100%;
+        height: 100vh;
+        background-color:#091836;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       #logo{
+        width: 240px;
+        height: 240px;
+        background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+       }
+       #inner{
+         height: 140px;
+         width: 140px;
+         border: 12px solid white;
+         border-radius: 40px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+       }
+      #inner2{
+         height: 70px;
+         width: 70px;
+         border: 12px solid white;
+         border-radius: 50px;
+      }
+     #inner::after{
+        content: '';
+        background-color: white;
+        width: 18px;
+        height: 18px;
+        border-radius: 50px;
+        margin-bottom: 60px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+     }
+    </style>
+</head>
+<body>
+   <div id="container">
+    <div id="logo">
+    <div id="inner">
+    <div id="inner2">
+    
+    </div>
+    </div>
+    </div>
+   </div> 
+</body>
+</html>
